@@ -1,8 +1,5 @@
-# Text-Summarization
-survey of Text Summarization
-
 # 文本摘要发展调研
-抽取式摘要能简单保证语句通顺，但对文本语义概况程度较低。生成式摘要是随着深度学习兴起才出现，存在句子欠通顺，对源文本概况程度低的问题。目前多数采用抽取式摘要技术。
+抽取式摘要能简单保证语句通顺，但对文本语义概况程度较低。生成式摘要是随着深度学习兴起才出现，存在句子欠通顺，对源文本概况程度低的问题。目前多数采用**抽取式**摘要技术。
 
 ## 1.1 传统方法
 抽取式
@@ -38,3 +35,41 @@ survey of Text Summarization
 ### 1.2.3 抽取生成式摘要
 + hard方式：将抽取式模型抽取的关键句作为生成式模型的输入
 + soft方式：将抽取式模型的输出概率用来调整词语级别的权重
+
+## 1.3 论文复现代码集合
+![https://github.com/bojone/SPACES](https://github.com/bojone/SPACES)    端到端的长文本摘要模型CNN， 苏剑林，tensorflow 1.14 + keras 2.3.1 + bert4keras 0.9.7
+
+![https://github.com/nlpyang/PreSumm](https://github.com/nlpyang/PreSumm)  code for EMNLP 2019 paper Text Summarization with Pretrained Encoders
+
+![https://github.com/maszhongming/MatchSum](https://github.com/maszhongming/MatchSum)  Code for ACL 2020 paper: "Extractive Summarization as Text Matching"
+
+![https://github.com/dmmiller612/bert-extractive-summarizer](https://github.com/dmmiller612/bert-extractive-summarizer)  Easy to use extractive text summarization with BERT
+
+![https://github.com/rohithreddy024/Text-Summarizer-Pytorch](https://github.com/rohithreddy024/Text-Summarizer-Pytorch) Pytorch implementation of "A Deep Reinforced Model for Abstractive Summarization" paper and pointer generator network
+
+![https://github.com/lancopku/superAE](https://github.com/lancopku/superAE)   Code for "Autoencoder as Assistant Supervisor: Improving Text Representation for Chinese Social Media Text Summarization"
+
+![https://github.com/jiacheng-xu/DiscoBERT](https://github.com/jiacheng-xu/DiscoBERT ) Code for paper "Discourse-Aware Neural Extractive Text Summarization" (ACL20)
+
+![https://github.com/yaushian/Unparalleled-Text-Summarization-using-GAN](https://github.com/yaushian/Unparalleled-Text-Summarization-using-GAN)Implementation of paper "Learning to Encode Text as Human-Readable Summaries using GAN    TensorFlow
+
+![https://github.com/lipiji/DRGD-LCSTS](https://github.com/lipiji/DRGD-LCSTS)code for "Deep Recurrent Generative Decoder for Abstractive Text Summarization"
+
+![https://github.com/kedz/nnsum](https://github.com/kedz/nnsum) An extractive neural network text summarization library for the EMNLP 2018 paper "Content Selection in Deep Learning Models of Summarization" 
+
+![https://github.com/lancopku/SRB](https://github.com/lancopku/SRB)  Code for "Improving Semantic Relevance for Sequence-to-Sequence Learning of Chinese Social Media Text Summarization"  seq2seq
+
+## 1.4 开箱即用工具包
+
+
+![https://github.com/letiantian/TextRank4ZH](https://github.com/letiantian/TextRank4ZH)  textrank4zh
+
+![https://github.com/hankcs/pyhanlp](https://github.com/hankcs/pyhanlp)  pyhanlp
+
+![https://github.com/fxsjy/jieba](https://github.com/fxsjy/jieba) jiaba
+
+![https://github.com/stanfordnlp/CoreNLP](https://github.com/stanfordnlp/CoreNLP)  CoreNLP
+
+![https://github.com/isnowfy/snownlp](https://github.com/isnowfy/snownlp) snownlp
+
+![https://github.com/yongzhuo/Macropodus](https://github.com/yongzhuo/Macropodus)
