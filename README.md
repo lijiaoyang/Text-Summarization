@@ -20,7 +20,7 @@
 ### 1.2.1 抽取式
 + 序列标注：原文每个句子打上一个二分类标签，0表示不属于摘要，1属于。把句子编码为向量，根据向量二分类。
 + 强化学习： 训练时交叉熵损失，测试时ROUGE，存在曝光偏差，强化学习去优化ROUGE分数。
-+ 预训练模型
++ 预训练模型：[bertSum](https://github.com/nlpyang/BertSum)  介绍：[https://zhuanlan.zhihu.com/p/60521316](https://zhuanlan.zhihu.com/p/60521316)
 
 ### 1.2.2 生成式
 + seq2seq： 对长文本不友好，更像是句子压缩
